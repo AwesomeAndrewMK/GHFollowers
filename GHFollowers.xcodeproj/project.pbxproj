@@ -11,6 +11,8 @@
 		A2A1EDF22AFBEC4D007BF0D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EDF12AFBEC4D007BF0D1 /* User.swift */; };
 		A2A1EDF52AFBF387007BF0D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EDF42AFBF387007BF0D1 /* NetworkManager.swift */; };
 		A2A1EE532B010150007BF0D1 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EE522B010150007BF0D1 /* GFError.swift */; };
+		A2A1EE562B01159A007BF0D1 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EE552B01159A007BF0D1 /* FollowerCell.swift */; };
+		A2A1EE582B011630007BF0D1 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EE572B011630007BF0D1 /* GFAvatarImageView.swift */; };
 		A2BE96582AF65F4300758CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE96572AF65F4300758CA3 /* AppDelegate.swift */; };
 		A2BE965A2AF65F4300758CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE96592AF65F4300758CA3 /* SceneDelegate.swift */; };
 		A2BE96612AF65F4500758CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BE96602AF65F4500758CA3 /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		A2A1EDF12AFBEC4D007BF0D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A2A1EDF42AFBF387007BF0D1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A2A1EE522B010150007BF0D1 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		A2A1EE552B01159A007BF0D1 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		A2A1EE572B011630007BF0D1 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		A2BE96542AF65F4300758CA3 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BE96572AF65F4300758CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2BE96592AF65F4300758CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		A2A1EE542B011575007BF0D1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A2A1EE552B01159A007BF0D1 /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A2BE964B2AF65F4300758CA3 = {
 			isa = PBXGroup;
 			children = (
@@ -128,11 +140,13 @@
 		A2BE96C32AFA3C7D00758CA3 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				A2A1EE542B011575007BF0D1 /* Cells */,
 				A2BE967D2AF8222400758CA3 /* GFAlertVC.swift */,
 				A2BE96732AF67C2900758CA3 /* GFButton.swift */,
 				A2BE96752AF67F3E00758CA3 /* GFTextField.swift */,
 				A2BE96792AF81F0B00758CA3 /* GFTitleLabel.swift */,
 				A2BE967B2AF820B800758CA3 /* GFBodyLabel.swift */,
+				A2A1EE572B011630007BF0D1 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -231,8 +245,10 @@
 				A2BE966E2AF66CFF00758CA3 /* SearchVC.swift in Sources */,
 				A2BE96742AF67C2900758CA3 /* GFButton.swift in Sources */,
 				A2BE96B42AF95F9300758CA3 /* UIViewController+Ext.swift in Sources */,
+				A2A1EE582B011630007BF0D1 /* GFAvatarImageView.swift in Sources */,
 				A2BE96582AF65F4300758CA3 /* AppDelegate.swift in Sources */,
 				A2BE967E2AF8222400758CA3 /* GFAlertVC.swift in Sources */,
+				A2A1EE562B01159A007BF0D1 /* FollowerCell.swift in Sources */,
 				A2A1EE532B010150007BF0D1 /* GFError.swift in Sources */,
 				A2BE967C2AF820B800758CA3 /* GFBodyLabel.swift in Sources */,
 				A2A1EDF02AFBEB15007BF0D1 /* Follower.swift in Sources */,
