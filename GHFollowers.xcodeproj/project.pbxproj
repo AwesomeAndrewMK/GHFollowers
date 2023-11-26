@@ -31,6 +31,7 @@
 		A2BE96B42AF95F9300758CA3 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE96B32AF95F9300758CA3 /* UIViewController+Ext.swift */; };
 		A2CB3E4C2B138755007478ED /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB3E4B2B138755007478ED /* GFUserInfoHeaderVC.swift */; };
 		A2CB3E4E2B1387D5007478ED /* GFSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB3E4D2B1387D5007478ED /* GFSecondaryLabel.swift */; };
+		A2CB3E502B139F09007478ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB3E4F2B139F09007478ED /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		A2BE96B32AF95F9300758CA3 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		A2CB3E4B2B138755007478ED /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		A2CB3E4D2B1387D5007478ED /* GFSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryLabel.swift; sourceTree = "<group>"; };
+		A2CB3E4F2B139F09007478ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				A2A1EE522B010150007BF0D1 /* GFError.swift */,
 				A20476132B02AA6500C95B9B /* UIHelper.swift */,
+				A2CB3E4F2B139F09007478ED /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				A2BE966E2AF66CFF00758CA3 /* SearchVC.swift in Sources */,
 				A2BE96742AF67C2900758CA3 /* GFButton.swift in Sources */,
 				A2BE96B42AF95F9300758CA3 /* UIViewController+Ext.swift in Sources */,
+				A2CB3E502B139F09007478ED /* Constants.swift in Sources */,
 				A20476142B02AA6500C95B9B /* UIHelper.swift in Sources */,
 				A2A1EE582B011630007BF0D1 /* GFAvatarImageView.swift in Sources */,
 				A2BE96582AF65F4300758CA3 /* AppDelegate.swift in Sources */,
