@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A20476142B02AA6500C95B9B /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20476132B02AA6500C95B9B /* UIHelper.swift */; };
 		A22BB75E2B07CC8D00285B28 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BB75D2B07CC8D00285B28 /* GFEmptyStateView.swift */; };
+		A27515022B20E4270012F748 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27515012B20E4270012F748 /* PersistanceManager.swift */; };
 		A2A1EDF02AFBEB15007BF0D1 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EDEF2AFBEB15007BF0D1 /* Follower.swift */; };
 		A2A1EDF22AFBEC4D007BF0D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EDF12AFBEC4D007BF0D1 /* User.swift */; };
 		A2A1EDF52AFBF387007BF0D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1EDF42AFBF387007BF0D1 /* NetworkManager.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		A20476132B02AA6500C95B9B /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		A22BB75D2B07CC8D00285B28 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		A27515012B20E4270012F748 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
 		A2A1EDEF2AFBEB15007BF0D1 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		A2A1EDF12AFBEC4D007BF0D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A2A1EDF42AFBF387007BF0D1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -104,12 +106,12 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
-		A22BB7592B07CB5C00285B28 /* Text fields */ = {
+		A22BB7592B07CB5C00285B28 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
 				A2BE96752AF67F3E00758CA3 /* GFTextField.swift */,
 			);
-			path = "Text fields";
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 		A22BB75A2B07CB8B00285B28 /* ImageViews */ = {
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				A2A1EDF42AFBF387007BF0D1 /* NetworkManager.swift */,
+				A27515012B20E4270012F748 /* PersistanceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -223,7 +226,7 @@
 				A22BB75C2B07CBDE00285B28 /* Labels */,
 				A22BB75B2B07CB9A00285B28 /* ViewControllers */,
 				A22BB75A2B07CB8B00285B28 /* ImageViews */,
-				A22BB7592B07CB5C00285B28 /* Text fields */,
+				A22BB7592B07CB5C00285B28 /* TextFields */,
 				A22BB7582B07CB5600285B28 /* Buttons */,
 				A22BB7572B07CB5000285B28 /* Views */,
 				A2A1EE542B011575007BF0D1 /* Cells */,
@@ -347,6 +350,7 @@
 				A2BE96582AF65F4300758CA3 /* AppDelegate.swift in Sources */,
 				A2CB3E9F2B18E6DD007478ED /* GFFollowerItemVC.swift in Sources */,
 				A2CB3E7F2B17B1A7007478ED /* GFItemInfoView.swift in Sources */,
+				A27515022B20E4270012F748 /* PersistanceManager.swift in Sources */,
 				A2BE967E2AF8222400758CA3 /* GFAlertVC.swift in Sources */,
 				A2A1EE562B01159A007BF0D1 /* FollowerCell.swift in Sources */,
 				A2A1EE532B010150007BF0D1 /* GFError.swift in Sources */,
