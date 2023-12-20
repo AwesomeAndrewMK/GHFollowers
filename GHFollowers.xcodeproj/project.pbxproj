@@ -32,6 +32,8 @@
 		A2BE967C2AF820B800758CA3 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE967B2AF820B800758CA3 /* GFBodyLabel.swift */; };
 		A2BE967E2AF8222400758CA3 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE967D2AF8222400758CA3 /* GFAlertVC.swift */; };
 		A2BE96B42AF95F9300758CA3 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE96B32AF95F9300758CA3 /* UIViewController+Ext.swift */; };
+		A2C8BF1D2B334895003199AD /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8BF1C2B334895003199AD /* GFAlertContainerView.swift */; };
+		A2C8BF1F2B3352BF003199AD /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8BF1E2B3352BF003199AD /* GFDataLoadingVC.swift */; };
 		A2CB3E4C2B138755007478ED /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB3E4B2B138755007478ED /* GFUserInfoHeaderVC.swift */; };
 		A2CB3E4E2B1387D5007478ED /* GFSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB3E4D2B1387D5007478ED /* GFSecondaryLabel.swift */; };
 		A2CB3E502B139F09007478ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB3E4F2B139F09007478ED /* Constants.swift */; };
@@ -71,6 +73,8 @@
 		A2BE967B2AF820B800758CA3 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		A2BE967D2AF8222400758CA3 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		A2BE96B32AF95F9300758CA3 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		A2C8BF1C2B334895003199AD /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		A2C8BF1E2B3352BF003199AD /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		A2CB3E4B2B138755007478ED /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		A2CB3E4D2B1387D5007478ED /* GFSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryLabel.swift; sourceTree = "<group>"; };
 		A2CB3E4F2B139F09007478ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			children = (
 				A22BB75D2B07CC8D00285B28 /* GFEmptyStateView.swift */,
 				A2CB3E7E2B17B1A7007478ED /* GFItemInfoView.swift */,
+				A2C8BF1C2B334895003199AD /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				A2CB3EA02B18E743007478ED /* ItemInfoVCs */,
 				A2BE967D2AF8222400758CA3 /* GFAlertVC.swift */,
 				A2CB3E4B2B138755007478ED /* GFUserInfoHeaderVC.swift */,
+				A2C8BF1E2B3352BF003199AD /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -355,6 +361,7 @@
 				A2BE96762AF67F3E00758CA3 /* GFTextField.swift in Sources */,
 				A2CB3EF62B1CA4EF007478ED /* String+Ext.swift in Sources */,
 				A2CB3EF42B1CA4BC007478ED /* Date+Ext.swift in Sources */,
+				A2C8BF1F2B3352BF003199AD /* GFDataLoadingVC.swift in Sources */,
 				A2BE966E2AF66CFF00758CA3 /* SearchVC.swift in Sources */,
 				A2BE96742AF67C2900758CA3 /* GFButton.swift in Sources */,
 				A2BE96B42AF95F9300758CA3 /* UIViewController+Ext.swift in Sources */,
@@ -370,6 +377,7 @@
 				A2BE967E2AF8222400758CA3 /* GFAlertVC.swift in Sources */,
 				A2A1EE562B01159A007BF0D1 /* FollowerCell.swift in Sources */,
 				A2A1EE532B010150007BF0D1 /* GFError.swift in Sources */,
+				A2C8BF1D2B334895003199AD /* GFAlertContainerView.swift in Sources */,
 				A2CB3E4C2B138755007478ED /* GFUserInfoHeaderVC.swift in Sources */,
 				A2BE967C2AF820B800758CA3 /* GFBodyLabel.swift in Sources */,
 				A2A1EDF02AFBEB15007BF0D1 /* Follower.swift in Sources */,
