@@ -7,7 +7,22 @@
 
 import UIKit
 
+protocol GFRepoItemVCDelegate {
+    func didTapGitHubProfile(for user: User)
+}
+
 class GFRepoItemVC: GFItemInfoVC {
+    
+    var delegate: GFRepoItemVCDelegate!
+    
+    init(user: User, delegate: GFRepoItemVCDelegate) {
+        super.init(user: user)
+        self.delegate = delegate
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -27,8 +27,7 @@ class GFEmptyStateView: UIView {
     }
     
     private func configure() {
-        addSubview(messageLabel)
-        addSubview(logoImageView)
+        addSubviews(messageLabel, logoImageView)
         
         backgroundColor = .systemBackground
         

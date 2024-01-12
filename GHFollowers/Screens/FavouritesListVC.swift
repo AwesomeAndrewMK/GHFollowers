@@ -29,7 +29,6 @@ class FavouritesListVC: GFDataLoadingVC {
         view.backgroundColor = .systemBackground
         title = "Favourites"
         navigationController?.navigationBar.prefersLargeTitles = true
-        
     }
     
     
