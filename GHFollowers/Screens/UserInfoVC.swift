@@ -33,7 +33,6 @@ class UserInfoVC: GFDataLoadingVC {
         getUserInfo()
     }
     
-    
     func configureViewController() {
         view.backgroundColor = .systemBackground
         let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
@@ -66,14 +65,12 @@ class UserInfoVC: GFDataLoadingVC {
         }
     }
     
-    
     func configureUIElements(with user: User) {
         self.add(childVC: GFRepoItemVC(user: user, delegate: self), to: self.itemViewOne)
         self.add(childVC: GFFollowerItemVC(user: user, delegate: self), to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.dateLabel.text = "GitHub since \(user.createdAt.convertToMonthYearFormat())"
     }
-    
     
     func layoutUI() {
         let padding: CGFloat = 20
@@ -117,7 +114,6 @@ class UserInfoVC: GFDataLoadingVC {
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-    
 }
 
 extension UserInfoVC: GFRepoItemVCDelegate {

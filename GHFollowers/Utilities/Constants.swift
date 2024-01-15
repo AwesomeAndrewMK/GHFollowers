@@ -15,11 +15,9 @@ enum SFSymbols {
     static let following = "person.2"
 }
 
-
 enum Images {
     static let ghLogo = UIImage(resource: .ghLogo)
 }
-
 
 enum ScreenSize {
     static let width        = UIScreen.main.bounds.size.width
@@ -27,7 +25,6 @@ enum ScreenSize {
     static let maxLength    = max(ScreenSize.width, ScreenSize.height)
     static let minLength    = min(ScreenSize.width, ScreenSize.height)
 }
-
 
 enum DeviceTypes {
     static let idiom                    = UIDevice.current.userInterfaceIdiom

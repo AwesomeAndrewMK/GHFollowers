@@ -8,7 +8,7 @@
 import UIKit
 
 class GFBodyLabel: UILabel {
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -17,7 +17,6 @@ class GFBodyLabel: UILabel {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     
     convenience init(textAlignment: NSTextAlignment) {
         self.init(frame: .zero)

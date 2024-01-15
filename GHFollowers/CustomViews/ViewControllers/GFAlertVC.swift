@@ -19,7 +19,7 @@ class GFAlertVC: UIViewController {
     var buttonTitle: String?
     
     var padding: CGFloat = 20
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black.withAlphaComponent(0.75)
@@ -40,7 +40,6 @@ class GFAlertVC: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     
     func configureContainerView() {
         NSLayoutConstraint.activate([
@@ -85,7 +84,6 @@ class GFAlertVC: UIViewController {
             messageLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -padding)
         ])
     }
-    
     
     @objc func dismissVC() {
         dismiss(animated: true)

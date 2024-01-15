@@ -15,9 +15,7 @@ enum PersistenceManager {
     
     static private let defaults = UserDefaults.standard
     
-    enum Keys {
-        static let favourites = "favourites"
-    }
+    enum Keys { static let favourites = "favourites" }
     
     static func updateWith(favourite: Follower, actionType: PersistenceActionType, completed: @escaping (GFError?) -> Void) {
         retrieveFavourites { result in
@@ -45,8 +43,6 @@ enum PersistenceManager {
         }
     }
     
-    
-    
     static func retrieveFavourites(completed: @escaping (Result<[Follower], GFError>) -> Void) {
         guard let favouritesData = defaults.object(forKey: Keys.favourites) as? Data else {
             completed(.success([]))
@@ -61,7 +57,6 @@ enum PersistenceManager {
             completed(.failure(.unableToFavourite))
         }
     }
-    
     
     static func save(favourites: [Follower]) -> GFError? {
         do {
